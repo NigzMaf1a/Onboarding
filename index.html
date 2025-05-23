@@ -147,7 +147,6 @@
         window.location.hash = hash;
         }
 
-        // Setup button events
         document.querySelectorAll('.btnNav').forEach(btn => {
         btn.addEventListener('click', e => {
             const route = e.target.getAttribute('data-route');
@@ -155,13 +154,11 @@
         });
         });
 
-        // Handle hash change
         window.addEventListener("hashchange", () => {
         const hash = window.location.hash;
         showRoute(routes.includes(hash) ? hash : "#/create");
         });
 
-        // On page load
         window.addEventListener("DOMContentLoaded", () => {
         const hash = window.location.hash || "#/create";
         showRoute(routes.includes(hash) ? hash : "#/create");

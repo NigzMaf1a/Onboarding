@@ -1,5 +1,5 @@
  export function mapProductsDiv(divElement, products) {
-  divElement.innerHTML = ""; //
+  divElement.innerHTML = "";
 
   products.forEach(product => {
 

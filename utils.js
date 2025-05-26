@@ -1,5 +1,5 @@
  export function mapProductsDiv(divElement, products) {
-  divElement.innerHTML = ""; // clear previous
+  divElement.innerHTML = ""; // clear prev
 
   products.forEach(product => {
 

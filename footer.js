@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         colorIndex = (colorIndex + 1) % colors.length;
     }
 
-    // Set the color
+    // Set the
     setInterval(changeColor, 4000);
 });
   

@@ -1,5 +1,5 @@
  export function mapProductsDiv(divElement, products) {
-  //Function to dynamically create cards of products in a given diven
+  //Function to dynamically create cards of products in a given div
   divElement.innerHTML = "";
 
   products.forEach(product => {

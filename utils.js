@@ -1,6 +1,6 @@
  export function mapProductsDiv(divElement, products) {
   //Function to dynamically create cards of products in a given div
-  //The function takes in the div and an array of products whose
+  //The function takes in the div and an array of products whose elements(objects properties) will be used to create populated divs
   divElement.innerHTML = "";
 
   products.forEach(product => {

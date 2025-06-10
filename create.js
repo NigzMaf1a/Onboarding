@@ -7,7 +7,7 @@ const productName = document.getElementById("productName");
 const productPrice = document.getElementById("productPrice");
 const productDescription = document.getElementById("productDescription");
 const productImage = document.getElementById("productImage");
-////
+//
 
 createForm.addEventListener("submit", async (e) => {
     try {

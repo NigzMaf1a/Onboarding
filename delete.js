@@ -1,6 +1,5 @@
 import Product from './product.js';
 import { jsonData } from './products.js';
-////////////////////////////
 
 const deleteSearchForm = document.getElementById("deleteSearchForm");
 const deleteProductID = document.getElementById("deleteProductId");
